@@ -104,7 +104,10 @@ map.on('load', function() {
         }
     });
 });
-data: 'https://raw.githubusercontent.com/EsparCuz/FranciscoAlejandroGG_MAPBOX/master/MAPBOX/mapa.geojson'
+'type';
+'geojson'
+'data';
+'https://raw.githubusercontent.com/EsparCuz/FranciscoAlejandroGG_MAPBOX/master/MAPBOX/mapa.geojson'
 
 fetch('https://raw.githubusercontent.com/EsparCuz/FranciscoAlejandroGG_MAPBOX/master/MAPBOX/mapa.geojson')
     .then(datos => datos.JSON())
